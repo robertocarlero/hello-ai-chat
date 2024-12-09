@@ -11,3 +11,7 @@
 	border: 0;
 	font-family: 'Poppins', sans-serif;
 }
+
+main {
+	background: linear-gradient(125deg, #dabbcf, #f2edf5, #e2daff 50%);
+}
