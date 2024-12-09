@@ -1,9 +1,14 @@
 import MyQueryClientProvider from './providers/MyQueryClientProvider';
+import { BrowserRouter, Route, Routes } from 'react-router';
 
 function App() {
 	return (
 		<MyQueryClientProvider>
-			<h1 className="text-3xl font-bold underline">Hello world!</h1>
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<div>Home</div>} />
+				</Routes>
+			</BrowserRouter>
 		</MyQueryClientProvider>
 	);
 }
